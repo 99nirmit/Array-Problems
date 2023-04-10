@@ -12,11 +12,11 @@ public class MatrixSet {
   
 	}
 
-	private static void solution(int[][] matrix) {
+	 static void solution(int[][] matrix) {
 		int m = matrix.length;
 		int n = matrix[0].length;
 		List<Integer> row = new ArrayList<>();
-		List<Integer> col = new ArrayList<>();
+	 	List<Integer> col = new ArrayList<>();
 		
 		for(int i=0;i<m;i++) {
 			for(int j=0;j<n;j++) {
